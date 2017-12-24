@@ -7,7 +7,7 @@ public class Day18 {
 
 	public static void main(String[] args) {
         List<Instruction> instructions = getInstructions();
-		//partOne(instructions);
+		partOne(instructions);
 		partTwo(instructions);
 	}
 
@@ -18,7 +18,6 @@ public class Day18 {
             while (sc.hasNextLine()) {
                 String i = sc.nextLine();
                 iList.add(new Instruction(i));
-
             }
                 
 		} catch (FileNotFoundException e) {
